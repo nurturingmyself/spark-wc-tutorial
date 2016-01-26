@@ -22,7 +22,7 @@ object WordCount {
 
     val test = sc.textFile("food.txt")
     test.flatMap { line =>
-       line.split("-p")
+       line.split(" ")
     }
       .map {
         word => (word, 1)
