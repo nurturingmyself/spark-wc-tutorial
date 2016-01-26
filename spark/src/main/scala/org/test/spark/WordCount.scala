@@ -7,7 +7,6 @@ import org.apache.spark.SparkContext
  * This Tutorial is done from the below URL - Marco Capuccini Tutorials
  * https://www.youtube.com/watch?v=aB4-RD_MMf0
 */
-
 object WordCount {
   def main(args: Array[String]) = {
     System.setProperty("hadoop.home.dir", "c:\\winutil\\")
